@@ -1,0 +1,1 @@
+#  Print Full Pyramid Pattern of Stars (*)

@@ -1,0 +1,1 @@
+# Print Inverted Half-Pyramid Pattern using Stars (*)
