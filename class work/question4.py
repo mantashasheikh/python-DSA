@@ -1,4 +1,4 @@
-# power of two
+# power of two(231)
 class Solution(object):
     def isPowerOfTwo(self, n):
         if n<=0:

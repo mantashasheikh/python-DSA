@@ -1,4 +1,4 @@
-#Running sum
+#Running sum (1480)
 class Solution(object):
     def runningSum(self, nums):
         r = []
