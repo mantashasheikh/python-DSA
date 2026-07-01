@@ -3,17 +3,30 @@ class node():
         self.data = data
         self.next = None
         
-n1 = node(30)
-print(n1.data)
-print(n1.next)
-n2 = node(40)
-print(n2.data)
-print(n2.next)
-n3 = node(50)
-print(n3.data)
-print(n3.next)    
+    def traverse(self,head):
+        c = head
+        while c.next!=None:
+            print(c.data)
+            c = c.next
+                
+        
+n1 = node(100)
+n2 = node(200)
+n3 = node(300)
 n1.next = n2
 n2.next = n3
-print("data of n1 : ", n1.data)
-print("data of n2 : ", n1.next.data)
-print("data of n3 : ", n1.next.next.data)
+head = n1
+n1.traverse(head)
+
+
+
+
+
+
+
+   
+# n1.next = n2
+# n2.next = n3
+# print("data of n1 : ", n1.data)
+# print("data of n2 : ", n1.next.data)
+# print("data of n3 : ", n1.next.next.data)
